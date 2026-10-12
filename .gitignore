@@ -1,0 +1,19 @@
+# Environments
+.env
+.nexus-rag/
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Project Data & Vector Database
+chroma_data/
+data/
+
+# IDE & OS Files
+.vscode/
+.DS_Store
+Thumbs.db
