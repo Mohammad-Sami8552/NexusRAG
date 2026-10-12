@@ -33,7 +33,7 @@ nexus-rag/
 ├── requirements.txt            # Project dependencies
 └── .env                        # API keys (Not committed to version control)
 
-Setup & Installation
+##Setup & Installation
 1. Clone the repository and set up a virtual environment
 git clone [https://github.com/Mohammad-Sami8552/nexus-rag.git](https://github.com/Mohammad-Sami8552/nexus-rag.git)
 cd nexus-rag
@@ -52,7 +52,6 @@ GOOGLE_API_KEY="your_google_api_key_here"
 
 Running the Application
 You will need two terminal windows to run both the backend API and the frontend UI.
-
 Terminal 1: Start the FastAPI Backend
 # Ensure your virtual environment is activated
 uvicorn app.main:app --reload
