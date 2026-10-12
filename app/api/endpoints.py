@@ -18,7 +18,7 @@ async def upload_pdfs(files: List[UploadFile] = File(...)):
 
     for file in files:
         if not file.filename.endswith(".pdf"):
-            continue # Skip non-PDFs
+            continue 
             
         file_path = os.path.join(settings.DATA_DIR, file.filename)
         with open(file_path, "wb") as buffer:

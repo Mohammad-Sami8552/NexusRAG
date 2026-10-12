@@ -9,5 +9,3 @@ app = FastAPI(
 async def root():
     return {"status": "NexusRAG API is running", "docs": "Visit http://127.0.0.1:8000/docs to test endpoints"}
 app.include_router(router, prefix="/api/v1")
-
-# Run with: uvicorn app.main:app --reload

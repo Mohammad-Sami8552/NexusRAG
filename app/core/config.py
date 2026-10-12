@@ -13,6 +13,5 @@ class Settings:
 
 settings = Settings()
 
-# Ensure directories exist
 os.makedirs(settings.CHROMA_PERSIST_DIR, exist_ok=True)
 os.makedirs(settings.DATA_DIR, exist_ok=True)
