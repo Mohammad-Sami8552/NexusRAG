@@ -33,7 +33,7 @@ nexus-rag/
 ├── requirements.txt            # Project dependencies
 └── .env                        # API keys (Not committed to version control)
 
-##Setup & Installation
+## Setup & Installation
 1. Clone the repository and set up a virtual environment
 git clone [https://github.com/Mohammad-Sami8552/nexus-rag.git](https://github.com/Mohammad-Sami8552/nexus-rag.git)
 cd nexus-rag
