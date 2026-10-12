@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_URL = "https://nexusrag-okx8.onrender.com/"
+API_URL = "https://nexusrag-okx8.onrender.com/api/v1"
 
 st.set_page_config(page_title="NexusRAG", page_icon="📄")
 st.title("📄 NexusRAG: Document Intelligence")
