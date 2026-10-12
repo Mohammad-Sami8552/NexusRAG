@@ -8,3 +8,5 @@ pypdf
 python-dotenv
 requests
 python-multipart
+langchain-chroma
+langchain-google-genai
